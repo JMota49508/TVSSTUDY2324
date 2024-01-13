@@ -1,1 +1,1 @@
-"# TVSSTUDY2324" 
+Resolução dos Testes Parciais dados pelo professor
