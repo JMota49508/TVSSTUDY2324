@@ -28,7 +28,7 @@
    > sistema. `active` e `inactive` indicam se o serviço está em execução ou não.
 
    b. Indique os pares destes quatro estados que são legítimos de ocorrer (compatíveis entre si).
-   > `enabled` e `active` são compatíveis entre si, assim como `disabled` e `inactive`.
+   > Todos os pares são compatíveis excepto `active` com `inactive` ou `enabled` com `disabled`
 
 4) No âmbito do systemd, explique sucintamente o que é um ficheiro de unidade do tipo .socket e o que se entende por
    socket activation.
