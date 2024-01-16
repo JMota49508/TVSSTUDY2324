@@ -65,10 +65,9 @@
    do kernel Linux para que, por exemplo, as imagens baseadas em Ubuntu 22.04 usem o kernel 5.15
    enquanto as imagens baseadas em Red Hat Enterprise Linux 8 precisam do kernel 4.18.»
 
-   > A afirmação é falsa porque, o Docker não requer a manutenção de múltiplas versões do kernel Linux, uma vez que o
-   > Docker não é um sistema de virtualização, mas sim um sistema de contentores. O Docker utiliza o kernel do host para
-   > executar os seus contentores. Essa abordagem aumenta a eficiência e consistência dos contentores, uma vez que os
-   > contentores não precisam de ter um kernel próprio.
+   > A afirmação é verdadeira, uma vez que o uso de imagens baseadas em diferentes sistemas vão precisar de ter um  
+   > kernel específico. Por outro lado, este custo não é muito grave uma vez que já existem estratégias para minimizar
+   > os custos e complexidades causadas por manter múltiplas versões de kernel Linux.
 
 8) Considere a operação docker build guiada por um Dockerfile.
 
